@@ -33,7 +33,7 @@ namespace Academic_System
                 "List Teacher : " + this.DisplayListTeacher();
             return result;
         }
-
+        
         public string DisplayListTeacher()
         {
             string result = "";
