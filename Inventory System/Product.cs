@@ -36,5 +36,13 @@ namespace Inventory_System
             ProductImage newImage = new ProductImage(inputId, inputFileName);
             this.ListImage.Add(newImage);
         }
+        public string Display()
+        {
+            string result = "Name : " + this.Name + "\n" +
+                "ID : " + this.Id + "\n" +
+                "Price : " + this.Price + "\n" +
+                "Stock : " + this.Stock + "\n";
+            return result;
+        }
     }
 }
